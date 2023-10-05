@@ -61,63 +61,138 @@ nav ul li:hover a {
 }
 
 /*home page*/
-main.home section:first-of-type {
+.home section:first-of-type {
     display: flex;
 }
 
-main.home section:first-of-type img {
+.home section:first-of-type img {
     padding-top: 2.5em;
     padding-bottom: 1em;
 }
 
-main.home section:last-of-type img {
+.home section:last-of-type img {
     padding-right: 1em;
 }
 
-main.home section:last-of-type {
+.home section:last-of-type {
     display: flex;
     padding-top: 1em;
 }
 
-main.home section div {
+.home section div {
     padding-right: 1em;
 }
 
-main.home img:first-of-type {
+.home img:first-of-type {
     width: 40%;
 }
 
-main.home h2 {
+.home h2 {
     padding-bottom: 0.5em;
 }
 
-main.home section div p:nth-last-of-type(2) {
+.home section div p:nth-of-type(2) {
     padding-bottom: 1em;
 }
 
 /*about page*/
-main.about img {
+.about img {
     width: 30%;
     padding-top: 0.5em;
     padding-bottom: 0.5em; 
 }
 
-main.about h2 {
-    padding-bottom: 0.5em;
-}
-
-main.about h3 {
+.about h3 {
     padding-top: 1em;
 }
 
+.about section:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.about section:first-of-type h3 {
+    width: 100%;
+}
+
+.about section:first-of-type div {
+    flex: 1 1 30em;
+}
+
+.about section:first-of-type > img:first-of-type {
+    flex: 1 1 20em;
+    object-fit: contain;
+    height: 29em;
+}
+
+.about section:first-of-type > img:last-of-type {
+    flex: 0 0 100%;
+    object-fit: cover;
+    height: 15em;
+}
+
+.about section:nth-of-type(2) h3 {
+    width: 100%;
+}
+
+.about section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.about section:nth-of-type(2) img {
+    flex: 1 1 22em;
+    height: 20em;
+    object-fit: cover;
+}
+
+.about section:nth-of-type(3) h3 {
+    width: 100%;
+} 
+
+/*section 4*/
+
+
+.about section:nth-of-type(5) {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.about section:nth-of-type(5) h3 {
+    width: 100%;
+}
+
+.about section:nth-of-type(5) div {
+    flex: 1 1 25em; 
+}
+
+.about section:nth-of-type(5) > img {
+    flex: 1 1 20em;
+    object-fit: contain;
+    height: 20em;
+}
+
+.about section:nth-of-type(6) img {
+    width: 100%;
+    height: 25%;
+}
+
+.about section:nth-of-type(8) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about section:nth-of-type(8) img {
+    margin: 0 auto;
+}
 
 /*line up*/
-main.line_up img {
+.line_up img {
     width: 20%;
 }
 
-main.line_up section {
+.line_up section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,6 +200,7 @@ main.line_up section {
     padding-bottom: 1em;
 }
 
-main.line_up a {
+.line_up a {
     padding-top: 0.5em;
 }
+
