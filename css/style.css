@@ -89,30 +89,20 @@ nav ul li:hover a {
     height: 30em;
 }
 
-.home section:last-of-type {
-    display: flex;  
+.home section div p:nth-of-type(2) {
+    padding-bottom: 1em;
 }
 
-.home section:last-of-type div {
+.home div:last-child {
+    display: flex; 
     flex: 1 1 25em; 
 }
 
-.home section:last-of-type > img {
+.home div:last-child > img {
     flex: 1 1 1em;
     object-fit: contain;
     height: 20em;
-}
-
-.home section:last-of-type div {
-    order: 1;
-}
-
-.home section:last-of-type img {
     padding-right: 1em;
-}
-
-.home section div p:nth-of-type(2) {
-    padding-bottom: 1em;
 }
 
 .home aside {
