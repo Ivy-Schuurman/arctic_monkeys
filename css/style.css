@@ -66,11 +66,11 @@ nav ul li:hover a {
 }
 
 .home h2 {
-    padding-bottom: 0.5em;
+    width: 100%;
 }
 
 .home section:first-of-type img {
-    padding-top: 2.5em;
+    padding-top: 0.5em;
     padding-bottom: 1em;
 }
 
@@ -89,23 +89,34 @@ nav ul li:hover a {
     height: 30em;
 }
 
-.home section div p:nth-of-type(2) {
+.home section:first-of-type div p:nth-of-type(2) {
     padding-bottom: 1em;
 }
 
-.home div:last-child {
-    display: flex; 
+.home h3 {
+    padding-bottom: 0.5em;
+}
+
+.about section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.about section:nth-of-type(2) div {
     flex: 1 1 25em; 
 }
 
-.home div:last-child > img {
+.about section:nth-of-type(2) > img {
     flex: 1 1 1em;
     object-fit: contain;
     height: 20em;
-    padding-right: 1em;
 }
 
-.home aside {
+.about section:nth-of-type(2) div {
+   order: 1;
+}
+
+.home section:last-of-type {
     background-color: #A6A486;
     border-radius: 1em;
     padding: 1em;
